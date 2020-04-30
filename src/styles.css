@@ -1,3 +1,49 @@
+
+button {
+
+}
+
+button:hover {
+  filter: brightness(90%);
+}
+
+div li button {
+  margin: 0 20px;
+  background: #ca4949;
+}
+
+.content, .list {
+  width: 100%;
+  max-width: 900px;
+  height: 100vh;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.list {
+  margin-left: 100px;
+  justify-content: right;
+}
+
+.list button {
+  margin-right: 50px;
+}
+
+.content form {
+  width: 100%;
+  padding: 96px;
+  box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+label {
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -25,10 +71,11 @@ div li + li {
 button {
   background: #7159c1;
   color: #fff;
+  border-radius: 5px;
   border: 0;
   padding: 10px 15px;
   cursor: pointer;
-  margin-top: 15px;
+  text-decoration: none;
   font-weight: bold;
   font-size: 14px;
 }
